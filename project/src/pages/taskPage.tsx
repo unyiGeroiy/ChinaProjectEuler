@@ -1,7 +1,7 @@
 import { useParams, useNavigate } from "react-router-dom";
 import { useState, useEffect } from "react";
-import { tasks } from './tasks';
-import type { Task } from './tasks';
+import { tasks } from '../data/tasks';
+import type { Task } from '../data/tasks';
 
 export default function TaskPage(){
 
